@@ -8,5 +8,11 @@ layout: home
 # My cats:
 
 {% for kitty in site.data.cats %}
-{{kitty}}
+
+ ## A cat! 
+ 
+ **Name:** {{kitty.cat.name}}
+ 
+ **Colour:** {{kitty.cat.color}}
+
 {% endfor %}
