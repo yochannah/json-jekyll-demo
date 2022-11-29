@@ -11,8 +11,8 @@ layout: home
 
  ## A cat! 
  
- **Name:** {{kitty.cat.name}}
+ **Name:** {{kitty.cats.name}}
  
- **Colour:** {{kitty.cat.color}}
+ **Colour:** {{kitty.cats.color}}
 
 {% endfor %}
