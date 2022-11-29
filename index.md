@@ -9,7 +9,7 @@ layout: home
 
 {% for kitty in site.data.cats %}
 
- ## A cat! 
+ ## A cat! 🐈‍⬛
  
  **Name:** {{kitty.cats.name}}
  
