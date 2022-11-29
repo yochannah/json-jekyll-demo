@@ -7,12 +7,12 @@ layout: home
 
 # My cats:
 
-{% for kitty in site.data.cats %}
+{% for kitty in site.data.cats.cats %}
 
  ## A cat! 🐈‍⬛
  
- **Name:** {{kitty.cats.name}}
+ **Name:** {{kitty.name}}
  
- **Colour:** {{kitty.cats.color}}
+ **Colour:** {{kitty.color}}
 
 {% endfor %}
